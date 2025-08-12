@@ -58,3 +58,6 @@ describe('Función multiplicacion', () => {
 
 ## Ejecutar pruebas unitarias
 Para ejecutar las pruebas, abre una terminal en la raíz del proyecto y ejecuta:
+```
+ng test
+```
