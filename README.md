@@ -12,14 +12,14 @@ cd mi-proyecto-angular
 npm install
 ```
 
-| Comando                          | Descripción                        |
-| -------------------------------- | ---------------------------------- |
-| npm install -g @angular/cli      | Instalar Angular CLI globalmente   |
-| ng new mi-proyecto-angular       | Crear un nuevo proyecto Angular    |
-| npm install                      | Instalar dependencias del proyecto |
-| ng serve                         | Levantar servidor de desarrollo    |
-| ng test                          | Ejecutar pruebas unitarias         |
-| ng generate component nombre     | Crear un nuevo componente          |
+| Comando                      | Descripción                        |
+| ---------------------------- | ---------------------------------- |
+| npm install -g @angular/cli  | Instalar Angular CLI globalmente   |
+| ng new mi-proyecto-angular   | Crear un nuevo proyecto Angular    |
+| npm install                  | Instalar dependencias del proyecto |
+| ng serve                     | Levantar servidor de desarrollo    |
+| ng test                      | Ejecutar pruebas unitarias         |
+| ng generate component nombre | Crear un nuevo componente          |
 
 ## Crear un componente para probar
 ```
