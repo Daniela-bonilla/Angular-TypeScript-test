@@ -21,13 +21,13 @@ npm install
 | ng test                      | Ejecutar pruebas unitarias         |
 | ng generate component nombre | Crear un nuevo componente          |
 
-## Crear un componente para probar
+## Crear un servicio para probar
 ```
 ng generate component multiplicacion
 ```
 
 ## **Crear una función a probar**
-### src/app/multiplicacion/multiplicacion.component.ts
+### src/app/services/multiplicacion.service.ts
 ```typescript
 export function multiplicacion(a: number, b: number): number {
   return a * b;
@@ -37,7 +37,7 @@ export function multiplicacion(a: number, b: number): number {
 ## **Crear un archivo de prueba**
 Angular usa Jasmine y Karma para pruebas unitarias. El archivo de prueba se crea automáticamente con el componente.
 
-### src/app/multiplicacion/multiplicacion.component.spec.ts
+### src/app/services/multiplicacion.service.spec.ts
 ```typescript
 import { multiplicacion } from './multiplicacion.component';
 
